@@ -1,13 +1,7 @@
 *{
     text-decoration: none;
 }
-.homeimage{
-    width: 100%;
-    height: auto;
-    display: block;
-    padding-left: 250px;
 
-}
 .why{
     font-size: 23px;
 }
@@ -44,7 +38,6 @@ footer{
     position: relative;
 }
 
-/* Dropdown button (Resources link) */
 .dropbtn {
     color: white;
     font-size: 18px;
@@ -55,7 +48,6 @@ footer{
     cursor: pointer;
 }
 
-/* Dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -64,7 +56,6 @@ footer{
     z-index: 1;
 }
 
-/* Dropdown links */
 .dropdown-content li {
     display: block;
     padding: 10px;
@@ -77,22 +68,24 @@ footer{
     text-decoration: none;
 }
 
-/* Show dropdown when hovering over the Resources link */
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* Optional: Add hover effect to dropdown links */
+
 .dropdown-content li a:hover {
     background-color: #5c8cc5;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
-.aboutmeimage img {
-    display: flex;
-    justify-content: center;  /* Centers the image horizontally */
-    align-items: center;      /* Centers the image vertically */
-    height: 200px;            /* Adjust height as needed */
-    width: 20%;     /* Optional: controls the image size */
-    height: auto;   /* Keeps the aspect ratio */
-}
-
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
